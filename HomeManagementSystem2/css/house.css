@@ -1,0 +1,350 @@
+﻿.topFilter 
+{
+    border: 1px solid #DDD;
+    width: 702px;
+    font: 12px/1.5 tahoma,arial,宋体b8b\4f53;
+    padding-bottom: 12px;
+}
+
+.topFilter .topHeader 
+{
+    height: 26px;
+    background: #F8F8F8;
+    line-height: 26px;
+}
+
+.topHeader .findH 
+{
+    position: absolute;
+    margin-left: 500px;
+    background: url(http://pages.aifcdn.com/img/aflist/42/list_icons.png) 0 -1050px no-repeat;
+    padding-left: 15px;
+}
+
+.topFilter .topContent 
+{
+    border-top: 1px solid #DDD;
+    z-index: 0;
+    padding: 20px 0 0 20px;
+    width:620px;
+}
+
+.topContent .pos, .topContent .price, .topContent .attr 
+{
+    line-height: 25px;
+    width:620px;
+}
+
+.topContent .topContentSpan 
+{
+    position: absolute;
+}
+
+.topContent .topContentSpans 
+{
+    display: inline-block;
+    padding-left: 40px;
+    width: 620px;
+}
+
+.topContent strong 
+{
+    margin-right: 12px;
+    color: #EB6100;
+}
+
+.topHeader .topHeaderBut 
+{
+    background: white;
+    width: auto;
+    height: 25px;
+    border: 1px solid #DDD;
+    border-top: 2px solid #F4F4F4;
+    border-bottom: none;
+    margin-left: 10px;
+    display: inline-block;
+    z-index: 1;
+    position: absolute;
+    line-height: 25px;
+    padding: 0 8px;
+}
+
+
+
+
+.listing 
+{
+    width: 650px;
+    margin: 0;
+}
+.listing .top_bar 
+{
+    height: 40px;
+    padding: 0 0 0 15px;
+    line-height: 40px;
+    background: url("http://pages.aifcdn.com/img/aflist/42/lp_repBg.png") repeat-x 0 -481px;
+    border-bottom: 1px solid #DDD;
+    width:650px;
+}
+.glb_xp_topBar, .listing .glb_xp_topBar 
+{
+    border-top: 2px solid #48A843;
+}
+
+.fl 
+{
+    float: left;
+    height:22px;
+}
+.top_bar .total 
+{
+    color: #EB6100;
+    font-weight: bold;
+}
+.top_bar .price 
+{
+    padding: 0 0 0 15px;
+}
+.top_bar .sort_select_box 
+{
+    _padding: 8px 0 0 0;
+}
+.newSort 
+{
+    margin-left: 180px;
+    position: absolute;
+    _margin-top: -8px;
+}
+.newSort a:hover, .newSort a:visited, .newSort a:link 
+{
+    color: black;
+    display: inline-block;
+}
+
+.top_bar .simple_pages 
+{
+    padding: 9px 0 0 0;
+    width:126px;
+    height:31px;
+}
+.fr 
+{
+    float: right;
+}
+div.simple_multipage 
+{
+    position: relative;
+    text-align: right;
+    font-size: 12px;
+    line-height: 20px;
+    float:left;
+}
+div.simple_multipage .pagelink 
+{
+    border: 1px #CCC solid;
+    height: 20px;
+    line-height: 20px;
+    min-width: 20px;
+    cursor: pointer;
+}
+.simple_multipage .noprexpage 
+{
+    background-position: 7px -155px;
+    float:left;
+}
+div.simple_multipage .current 
+{
+    line-height: 22px;
+    padding: 0 5px;
+    width:22px;
+    float:left;
+}
+.simple_multipage .nextpage 
+{
+    background-position: 45px -175px;
+    float:left;
+}
+
+.newSort_1 a:hover, .newSort_1 a:visited, .newSort_1 a:link {
+color: black;
+display: inline-block;
+}
+
+
+
+
+
+
+
+.list
+{
+    float:left;
+    margin:0;
+    width:702px;
+}
+
+hr
+{
+    background-color: blue;
+}
+
+dl
+{
+    font-size: 12px;
+    margin: 0px;
+    display: block;
+    overflow: hidden;
+}
+
+.dd_list_house
+{
+    padding: 15px 0px 15px 10px;
+    border-bottom: 1px dashed #999999;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.dt_photo
+{
+    float: left;
+    width: 120px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.photo
+{
+    width: 100px;
+    height: 75px;
+    display: block;
+    background-color: black;
+}
+
+
+.dd_houseInfo
+{
+    float: left;
+    padding: 0;
+    list-style: none;
+    width: 435px;
+    margin-top: -3px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+.p_tag
+{
+    font-size: 12px;
+    overflow: hidden;
+    vertical-align: baseline;
+    margin: 0px;
+    padding: 0px;
+}
+
+.p_name
+{
+    font-size: 12px;
+    margin-top: 6px;
+    overflow: hidden;
+    vertical-align: baseline;
+    color: #808080;
+}
+
+.house_description
+{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.4em;
+    text-decoration: underline;
+}
+
+.dd_price
+{
+    font-family: Tahoma,Arial;
+    margin: 21px 0px 0 0px;
+    text-align: left;
+    width: 110px;
+    height: 25px;
+    color: #EB6100;
+    float: right;
+}
+
+p
+{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.dd_list_house .dd_price strong
+{
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.dd_list_house .info_bot 
+{
+    position: relative;
+    padding: 0 0 0 47px;
+    width: 500px;
+}
+.dd_list_house .info_bot 
+{
+    margin-left: 15px;
+}
+.info_bot .b 
+{  
+    background: url("http://pages.aifcdn.com/img/aflist/42/list_type_b.png") no-repeat 0 0;
+    font-size: 12px;
+    color: yellow;
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+    margin-right: 13px;
+}
+.info_bot i 
+{
+    position: absolute;
+    top: 98px;
+    left: 0;
+    width: 34px;
+    height: 16px;
+    background: url("http://pages.aifcdn.com/img/aflist/42/list_type.png") no-repeat 0 0;
+    font-size: 12px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+    margin-right: 13px;
+}
+div, ul, li, a, h1, h2, h3, em, i 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-style: normal;
+}
+user agent stylesheeti, cite, em, var, address, dfn 
+{
+    font-style: italic;
+}
+.info_bot .bot_R 
+{
+    width: 500px;
+    line-height: 26px;
+}
+div.bot_R a:link, div.bot_R a:visited 
+{
+    color:red;
+    font-size:14px;
+}
